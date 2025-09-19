@@ -30,7 +30,7 @@ const Layout: React.FC<LayoutProps> = ({ children, currentPage, onNavigate, user
                 <GraduationCap className="h-8 w-8 text-white" />
               </div>
               <div>
-                <h1 className="text-2xl font-bold text-gray-900">EduPay</h1>
+                <h1 className="text-2xl font-bold text-gray-900">STI College</h1>
                 <p className="text-sm text-gray-500">School Billing Management</p>
               </div>
             </div>
