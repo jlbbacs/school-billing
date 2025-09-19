@@ -148,7 +148,7 @@ const Reports: React.FC = () => {
                     <tr key={due.studentId}>
                       <td className="py-3 px-6 font-medium text-gray-900">{due.studentName}</td>
                       <td className="py-3 px-6 text-gray-600">{due.class}</td>
-                      <td className="py-3 px-6 font-bold text-red-600">${due.totalDue.toLocaleString()}</td>
+                      <td className="py-3 px-6 font-bold text-red-600">₱{due.totalDue.toLocaleString()}</td>
                       <td className="py-3 px-6">
                         <span className="bg-red-100 text-red-800 px-2 py-1 rounded-full text-xs font-medium">
                           {due.overdueDays} days

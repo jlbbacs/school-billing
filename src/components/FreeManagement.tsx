@@ -95,7 +95,7 @@ const FeeManagement: React.FC = () => {
             <div className="space-y-3">
               <div>
                 <h3 className="text-xl font-semibold text-gray-900">{fee.name}</h3>
-                <p className="text-3xl font-bold text-blue-600 mt-2">${fee.amount.toLocaleString()}</p>
+                <p className="text-3xl font-bold text-blue-600 mt-2">₱{fee.amount.toLocaleString()}</p>
               </div>
               
               <p className="text-gray-600 text-sm">{fee.description}</p>
@@ -167,7 +167,7 @@ const FeeManagement: React.FC = () => {
                 />
               </div>
               <div>
-                <label className="block text-sm font-medium text-gray-700 mb-2">Amount ($)</label>
+                <label className="block text-sm font-medium text-gray-700 mb-2">Amount (₱)</label>
                 <input
                   type="number"
                   value={formData.amount || ''}

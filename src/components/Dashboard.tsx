@@ -149,9 +149,9 @@ const Dashboard: React.FC = () => {
             </div>
             <div className="flex-1">
               <p className="text-sm font-medium text-gray-900">Payment received from Alice Johnson</p>
-              <p className="text-xs text-gray-600">Tuition Fee - $1,500 • 2 hours ago</p>
+              <p className="text-xs text-gray-600">Tuition Fee - ₱1,500 • 2 hours ago</p>
             </div>
-            <span className="text-green-600 font-medium">+$1,500</span>
+            <span className="text-green-600 font-medium">+₱1,500</span>
           </div>
           <div className="flex items-center space-x-4 p-4 bg-orange-50 rounded-lg border border-orange-200">
             <div className="bg-orange-500 p-2 rounded-full">
@@ -159,9 +159,9 @@ const Dashboard: React.FC = () => {
             </div>
             <div className="flex-1">
               <p className="text-sm font-medium text-gray-900">Payment overdue for Carol Davis</p>
-              <p className="text-xs text-gray-600">Library Fee - $100 • 10 days overdue</p>
+              <p className="text-xs text-gray-600">Library Fee - ₱100 • 10 days overdue</p>
             </div>
-            <span className="text-orange-600 font-medium">$100</span>
+            <span className="text-orange-600 font-medium">₱100</span>
           </div>
           <div className="flex items-center space-x-4 p-4 bg-blue-50 rounded-lg border border-blue-200">
             <div className="bg-blue-500 p-2 rounded-full">
